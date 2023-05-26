@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.App", "NextBus.App\NextBus.App.csproj", "{745D1855-2E00-4D9C-A9BD-E7F31DCCB591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.Android", "NextBus.Android\NextBus.Android.csproj", "{9972137E-A54C-4A5F-9792-16EA13AB4351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.Console", "NextBus.Console\NextBus.Console.csproj", "{FB509F23-DA5D-4BE7-84B0-74F996CC179C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{745D1855-2E00-4D9C-A9BD-E7F31DCCB591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745D1855-2E00-4D9C-A9BD-E7F31DCCB591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745D1855-2E00-4D9C-A9BD-E7F31DCCB591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745D1855-2E00-4D9C-A9BD-E7F31DCCB591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9972137E-A54C-4A5F-9792-16EA13AB4351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9972137E-A54C-4A5F-9792-16EA13AB4351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9972137E-A54C-4A5F-9792-16EA13AB4351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9972137E-A54C-4A5F-9792-16EA13AB4351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB509F23-DA5D-4BE7-84B0-74F996CC179C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB509F23-DA5D-4BE7-84B0-74F996CC179C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB509F23-DA5D-4BE7-84B0-74F996CC179C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB509F23-DA5D-4BE7-84B0-74F996CC179C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
