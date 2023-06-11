@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using NextBus.Android.Data;
 using NextBus.App;
 
 namespace NextBus.Android;
@@ -22,9 +21,6 @@ public static class MauiProgram
 		builder.Services.AddBlazorWebViewDeveloperTools();
 		builder.Logging.AddDebug();
 #endif
-
-        builder.Services.AddSingleton<WeatherForecastService>();
-        builder.Services.AddSingleton<Class1>();
 
         return builder.Build();
     }
