@@ -2,7 +2,7 @@ using NextBus.App.Persistence;
 
 namespace NextBus.App;
 
-public class BusStopsQuery
+public class BusStopsQuery : IBusStopsQuery
 {
     public IEnumerable<BusStop> GetStopsInRadius(double lat, double lon, double radius)
     {
@@ -13,3 +13,8 @@ public class BusStopsQuery
 }
 
 public record struct BusStop(string ShortName, string LongName, string Next, IEnumerable<string> NextOccurances);
+
+public interface IBusStopsQuery
+{
+    IEnumerable<BusStop> GetStopsInRadius(double lat, double lon, double radius);
+}

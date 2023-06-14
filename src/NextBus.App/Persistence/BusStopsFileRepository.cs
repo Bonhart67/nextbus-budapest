@@ -26,7 +26,7 @@ internal record struct StopTime(DateTime DepartureTime, string Headsign, string 
 internal record struct Trip(string ServiceId, string TripId);
 internal record struct CalendarDate(DateTime Date, string ServiceId);
 
-internal interface IBusStopsRepository
+public interface IBusStopsRepository
 {
     IEnumerable<Stop> Stops { get; }
 }

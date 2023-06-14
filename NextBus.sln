@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.App", "NextBus.App\NextBus.App.csproj", "{0B7F499B-328A-4D65-B06A-E107CA075E43}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{877A9980-C848-4063-9EDD-BA7BBDFCCF8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.Android", "NextBus.Android\NextBus.Android.csproj", "{45FABD85-8F5F-41DC-B0D2-12E6773F3D8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.App", "src\NextBus.App\NextBus.App.csproj", "{38B6904D-E623-490E-9881-529B0FFE51B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.Android", "src\NextBus.Android\NextBus.Android.csproj", "{4BFC37C1-0C2D-4DDE-8751-C53B4D5B4E92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F48AF827-52ED-43DF-AD8F-A8D4ACBA0AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.App.Tests", "test\NextBus.App.Tests\NextBus.App.Tests.csproj", "{A032A360-C788-4A63-8858-ABBB23082441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +22,22 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B7F499B-328A-4D65-B06A-E107CA075E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B7F499B-328A-4D65-B06A-E107CA075E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B7F499B-328A-4D65-B06A-E107CA075E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B7F499B-328A-4D65-B06A-E107CA075E43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45FABD85-8F5F-41DC-B0D2-12E6773F3D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45FABD85-8F5F-41DC-B0D2-12E6773F3D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45FABD85-8F5F-41DC-B0D2-12E6773F3D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45FABD85-8F5F-41DC-B0D2-12E6773F3D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B6904D-E623-490E-9881-529B0FFE51B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B6904D-E623-490E-9881-529B0FFE51B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B6904D-E623-490E-9881-529B0FFE51B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B6904D-E623-490E-9881-529B0FFE51B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFC37C1-0C2D-4DDE-8751-C53B4D5B4E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFC37C1-0C2D-4DDE-8751-C53B4D5B4E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFC37C1-0C2D-4DDE-8751-C53B4D5B4E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFC37C1-0C2D-4DDE-8751-C53B4D5B4E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A032A360-C788-4A63-8858-ABBB23082441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A032A360-C788-4A63-8858-ABBB23082441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A032A360-C788-4A63-8858-ABBB23082441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A032A360-C788-4A63-8858-ABBB23082441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38B6904D-E623-490E-9881-529B0FFE51B2} = {877A9980-C848-4063-9EDD-BA7BBDFCCF8D}
+		{4BFC37C1-0C2D-4DDE-8751-C53B4D5B4E92} = {877A9980-C848-4063-9EDD-BA7BBDFCCF8D}
+		{A032A360-C788-4A63-8858-ABBB23082441} = {F48AF827-52ED-43DF-AD8F-A8D4ACBA0AFD}
 	EndGlobalSection
 EndGlobal
